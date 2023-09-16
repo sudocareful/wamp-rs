@@ -1,0 +1,25 @@
+[package]
+name = "wamp-rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "wamp"
+path = "src/main.rs"
+
+[dependencies.wamp-helpers]
+git = "https://github.com/ibotva/wamp-parser-rs.git"
+branch = "main" 
+
+[dependencies.json]
+version = "0.12.4"
+
+[dependencies.websockets]
+version = "0.3.0"
+
+[dependencies.tokio]
+version = "1.32.0"
+features = ["full"]
+
+[dependencies.dotenv_codegen]
+version = "0.15.0"
