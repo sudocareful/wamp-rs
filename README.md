@@ -1,6 +1,12 @@
 # wamp-rs
 Wamp Client library. Not stable, subject to changes at any time. It makes use of the [wamp-helpers](https://github.com/ibotva/wamp-parser-rs.git) library.
 
+# `Cargo.toml`
+```rust
+[dependencies.wamp-rs]
+git = "https://github.com/sudocareful/wamp-rs.git"
+branch = "master"
+```
 # Usage
 ```rust
 
